@@ -41,7 +41,7 @@ const cathetus = prompt ('Введіть через один пробіл дов
                     alert ('Невірний формат другого катету! Катет повинен бути числом більше нуля')
                     break;
             }
-            if (сathetusComponents.length === 2 && Number(сathetusComponents[0]) && Number(сathetusComponents[1])){
+            if (сathetusComponents.length === 2 && Number(сathetusFirst[0]) && Number(сathetusSecond[1])){
                 alert (`Результат обчислення гіпотенузи: \nПершим способом: ${hypotenuseFirst} \nДругим способом: ${hypotenuseSecond}`)
             }
         }
